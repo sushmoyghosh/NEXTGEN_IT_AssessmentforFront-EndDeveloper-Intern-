@@ -570,7 +570,21 @@
      <!-- chart js -->
      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
  
-
+<!-- toggle js -->
+<script>
+    $('.btn').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
+     
+      $('.chart-btn').click(function(){
+        $('nav ul .chart-show').toggleClass("show2");
+        $('nav ul .second2').toggleClass("rotate");
+      });
+      $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
 
 
   <!-- <script>
