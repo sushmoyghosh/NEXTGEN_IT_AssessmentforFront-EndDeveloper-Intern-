@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internshipproject</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+<header >
+    <div  class="container ">
+
+
+        <div class=" ">
+
+            <nav class="sidebar navigation">
+                
+                <ul>
+                    <li class=" topone"><a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="text">Home Page</span>
+                      </a></li>
+                  <li class="active"><a href="index.html">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Dashboard</span>
+                  </a></li>
+                  <li ><a href="attendance.html">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Attendance</span>
+                  </a></li>
+                  <li ><a href="#">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Employees</span>
+                  </a></li>
+                  <li ><a href="#">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Leaves</span>
+                  </a></li>
+                  <li ><a href="#">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Expense</span>
+                  </a></li>
+                  <li><a href="#">
+                    <span class="icon">
+                        <ion-icon name="logo-chrome"></ion-icon>
+                    </span>
+                    <span class="text">Notice</span>
+                    
+                  </a></li>
+
+                  <li>
+                    <a href="#" class="chart-btn">
+                        <span class="icon">
+                            <ion-icon name="people"></ion-icon>
+                        </span>
+                        <span class="text">Settings</span>
+                      <span class="fas fa-caret-down second2"></span>
+                    </a>
+                    <ul class="chart-show">
+                      <li><a href="#">
+                        <span class="icon">
+                            <ion-icon name="person-add"></ion-icon>
+                        </span>
+                        <span class="text">Approval</span>
+                      </a></li>
+                      <li><a href="#">
+                        <span class="icon">
+                            <ion-icon name="refresh"></ion-icon>
+                        </span>
+                        <span class="text">Leave</span>
+                      </a></li>
+                      <li><a href="#">
+                        <span class="icon">
+                            <ion-icon name="repeat"></ion-icon>
+                        </span>
+                        <span class="text">OfficeSetting</span>
+                      </a></li>
+                      <li><a href="#">
+                        <span class="icon">
+                            <ion-icon name="book"></ion-icon>
+                        </span>
+                        <span class="text">MySubscriptions</span>
+                      </a></li>
+                      
+
+                    </ul>
+                  </li>
+
+                  <li ><a href="#">
+                    <span class="icon">
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                    </span>
+                    <span class="text">Departments</span>
+                  </a></li>
+                 
+                   <li><a href="#">
+                    <span class="icon">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </span>
+                    <span class="text">Logout</span>
+                    
+                  </a></li>
+                </ul>
+              </nav>
+        </div>
+        
+        
+        <!-- toggle nd menu -->
+        <div class="main">
+            <!-- main header -->
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+
+                </div>
+                <!-- search bar -->
+        <div class="search">
+            <label >
+                <input type="text" placeholder="Search here">
+                <ion-icon name="search-outline"></ion-icon>
+            </label>
+
+        </div>
+
+                
+
+                <!-- notification -->
+        <div class="notifications">
+            <div class="icon_wrap"><i id="toggle" onclick= "myFunction2()" class="fa fa-envelope"></i></div>
+            
+            
+            
+          </div>
+        <!-- notification -->
+        
+        <div class="notifications" >
+          <div class="icon_wrap"><i id="toggle" onclick= "myFunction()" class="far fa-bell"></i></div>
+          
+          
+          
+        </div>
+         <!-- userimg -->
+                <div class="user">
+                     <img id="toggle" onclick= "myFunction3()" src="img/user.jpg">
+                </div>
+
+                
+            </div>
+            
+
+            <!-- main banner -->
+            <div class="cardBox1">
+              <h1>Dashboard</h1>
+            </div>
+
+            <!-- cardbox -->
+            <div class="card">
+                <h6>Company Status</h6>
+            
+            <div class="cardBox">
+                
+                <!-- card 1 -->
+                <div class="card">
+                    <div class="iconBx">
+                      <p><ion-icon name="people"></ion-icon><span> Total Employee</span></p>
+                    </div>
+                    <div>
+                   
+                        <div class="float-container">
+
+                            <div class="float-child">
+                              <h1>450</h1>
+                            </div>
+                            
+                            <div class="float-child">
+                              <div class="blue"> <span>View All</span></div>
+                            </div>
+                            
+                          </div>
+
+                          <div class="float-container1">
+
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                          </div>
+
+                          
+                         
+                        
+                       
+                    </div>
+                        
+                   
+                </div>
+
+                <!-- card 2 -->
+                <div class="card">
+                    <div class="iconBx">
+                      <p><ion-icon name="people"></ion-icon><span> Total Employee</span></p>
+                    </div>
+                    <div>
+                   
+                        <div class="float-container">
+
+                            <div class="float-child">
+                              <h1>450</h1>
+                            </div>
+                            
+                            <div class="float-child">
+                              <div class="blue"> <span>View All</span></div>
+                            </div>
+                            
+                          </div>
+
+                          <div class="float-container1">
+
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                          </div>
+
+                          
+                         
+                        
+                       
+                    </div>
+                        
+                   
+                </div>
+
+                <!-- card 3 -->
+                <div class="card">
+                    <div class="iconBx">
+                      <p><ion-icon name="people"></ion-icon><span> Total Employee</span></p>
+                    </div>
+                    <div>
+                   
+                        <div class="float-container">
+
+                            <div class="float-child">
+                              <h1>450</h1>
+                            </div>
+                            
+                            <div class="float-child">
+                              <div class="blue"> <span>View All</span></div>
+                            </div>
+                            
+                          </div>
+
+                          <div class="float-container1">
+
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                          </div>
+
+                          
+                         
+                        
+                       
+                    </div>
+                        
+                   
+                </div>
+
+                <!-- card 4 -->
+                <div class="card">
+                    <div class="iconBx">
+                      <p><ion-icon name="people"></ion-icon><span> Total Employee</span></p>
+                    </div>
+                    <div>
+                   
+                        <div class="float-container">
+
+                            <div class="float-child">
+                              <h1>450</h1>
+                            </div>
+                            
+                            <div class="float-child">
+                              <div class="blue"> <span>View All</span></div>
+                            </div>
+                            
+                          </div>
+
+                          <div class="float-container1">
+
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                            <div class="float-child1">
+                                <img src="img/user.jpg">
+                            </div>
+                          </div>
+
+                          
+                         
+                        
+                       
+                    </div>
+                        
+                   
+                </div>
+            </div>
+        </div>
+
+            <!-- main details -->
+            <div class="details">
+                <div class="recentOders">
+                    <div class="cardHeader">
+                        <h2>Expense Report</h2>
+                        
+                    </div>
+                    <div class="cardHeader">
+                        <h3>Day <span>week</span> <span>Month</span> <span>Year</span></h3>
+                        <a href="#" class="btn">Export Details</a>
+                    </div>
+                    <div class="cardHeader">
+                        <h1>$45,000</h1>
+                       
+                    </div>
+                    
+                    <div class="one">
+                        <div class="graphbox2">
+                            <canvas id="myChart4"></canvas>
+                         </div>
+                    </div>
+                </div>
+
+                <!--main new customers -->
+                <div class="Totaltask">
+                    <div class="cardHeader">
+                        <h2>Total task</h2>
+                        
+
+                    </div>
+                    <div class="cardHeader">
+                        <h2>112</h2>
+                        
+
+                    </div>
+                    <div class="card-description">
+                        <div class="cardcontainer">
+                         <ul>
+                             <li class="Completed">Completed</li>
+                             <li class="InProgress">In Progress</li>
+                             <li class="Pending">Pending</li>
+                             
+                         </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+<!-- notification -->
+            <div class="notificationItem" id="third">
+               
+                <div class="notificpart1">
+                    <div class="notiimg">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart1">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                     <p class="success">success</p>
+ 
+                 </div>
+                 
+                <div class="notificpart1">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart1">
+                    <div class="notiimg">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart1">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                     <p class="failed">failed</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart1">
+                    <div class="notiimg">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart1">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                     <p class="success">success</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart1">
+                    <div class="notiimg">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart1">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart1">
+                     
+                     <p class="failed">failed</p>
+ 
+                 </div>
+
+                 
+               
+               
+               
+            </div>
+            <!-- message -->
+            <div class="notificationItem2" id="third2">
+               
+                <div class="notificpart12">
+                    <div class="notiimg2">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart12">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                     <p class="success">success</p>
+ 
+                 </div>
+                 
+                <div class="notificpart12">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart12">
+                    <div class="notiimg2">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart12">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                     <p class="failed">failed</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart12">
+                    <div class="notiimg2">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart12">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                     <p class="success">success</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                    <p class="success1">success</p>
+
+                </div>
+                <div class="notificpart12">
+                    <div class="notiimg2">
+                     <img src="img/user.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="notificpart12">
+                     <h2>Lorem ipsum dolor </h2>
+                     <p>bdibvjdbvisvbib</p>
+ 
+                 </div>
+                 <div class="notificpart12">
+                     
+                     <p class="failed">failed</p>
+ 
+                 </div>
+
+                 
+               
+               
+               
+            </div>
+            <!-- profile -->
+            <div class="profile"  id="third3">
+                <div class="name">
+                    <h3><i class="fas fa-user-alt"> </i>Profile</h3>
+                    <h3><i class="fas fa-cog"></i> Settings</i></h3>
+                    <h3><i class="fas fa-sign-out-alt"></i> Logout</i></h3>
+                </div>
+            </div>
+
+            <div class="topbar">
+                
+                <div class="footer">
+                    <h2>Created By <span>
+                        <a href="https://www.linkedin.com/in/sushmoy-ghosh-b515141bb/">Sushmoy Ghosh</a>
+                    </span> || All Rights Reserved!</h2>
+                </div>
+
+                <!-- dark&light mode toggle -->
+                <div id="dark-btn">
+                    <span></span>
+
+                </div>
+
+               
+                
+            </div>
+
+        </div>
+    </div>
+</header>
+<!-- <h2>@opyright by Sushmoy Ghosh with help of various online site</h2> -->  
+ <!-- header end-->
+ <!-- ionicon cdn js -->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <!-- chart js -->
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+ 
+
+
+<!-- chart js -->
+<script >
+   
+const earning3 = document.getElementById('myChart4').getContext('2d');
+
+//chart4
+const myChart4 = new Chart(earning3, {
+ type: 'line',
+ data: {
+     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+     datasets: [{
+         label: '# of Votes',
+         data: [12, 19, 3, 5, 2, 3],
+         backgroundColor: [
+             'rgba(255, 99, 132, 0.2)',
+             'rgba(54, 162, 235, 0.2)',
+             'rgba(255, 206, 86, 0.2)',
+             'rgba(75, 192, 192, 0.2)',
+             'rgba(153, 102, 255, 0.2)',
+             'rgba(255, 159, 64, 0.2)'
+         ],
+         borderColor: [
+             'rgba(255, 99, 132, 1)',
+             'rgba(54, 162, 235, 1)',
+             'rgba(255, 206, 86, 1)',
+             'rgba(75, 192, 192, 1)',
+             'rgba(153, 102, 255, 1)',
+             'rgba(255, 159, 64, 1)'
+         ],
+         borderWidth: 1
+     }]
+ },
+ options: {
+     scales: {
+         y: {
+             beginAtZero: true
+         }
+     }
+ }
+});
+
+
+ </script>
+  <script>
+    const targetDiv = document.getElementById("third");
+    
+    function myFunction() {
+      if (targetDiv.style.display == "block") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+      }
+    };
+  </script>
+   <script>
+    const targetDiv2 = document.getElementById("third2");
+    
+    function myFunction2() {
+      if (targetDiv2.style.display == "block") {
+        targetDiv2.style.display = "none";
+      } else {
+        targetDiv2.style.display = "block";
+      }
+    };
+  </script>
+   <script>
+    const targetDiv3 = document.getElementById("third3");
+    
+    function myFunction3() {
+      if (targetDiv3.style.display == "block") {
+        targetDiv3.style.display = "none";
+      } else {
+        targetDiv3.style.display = "block";
+      }
+    };
+  </script>
+
+    <script src="custom.js"></script>
+ 
+
+ 
+    
+</body>
+</html>
